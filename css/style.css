@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     /* debug */
     /* background-color: darksalmon;
@@ -67,6 +67,75 @@ header img{
 main{
     margin-top: 50px;
 }
+
+.main{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .product{
+    /* debug */
+    background-color: rgba(197, 149, 131, 0.477);
+    min-height: 450px;
+}
+
+.details img{
+    height: 400px;
+}
+
+.product .brand{
+    font-size: 10px;
+}
+
+.product .name{
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.product .prices{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.prices .discounted{
+    color: red;
+}
+
+.details{
+    position: relative;
+}
+
+.labels{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+.label{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.red{
+    background-color: red;
+    
+}
+
+.green{
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    padding: 5px;
+}
+
 
 /* regole footer */
 footer{
