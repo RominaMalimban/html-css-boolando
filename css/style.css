@@ -13,9 +13,6 @@ body{
 .container{
     width: 60%;
     margin: 0 auto;
-    /* debug */
-    /* background-color: darksalmon;
-    border: 1px solid black; */
 }
 
 a{
@@ -33,8 +30,6 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    /* debug */
-    /* background-color: darkslateblue; */
 }
 
 /* regole header */
@@ -52,8 +47,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    /* background-color: burlywood; */
 }
 
 .flex-header .center-item{
@@ -137,6 +130,14 @@ main .product{
     font-size: 35px;
 }
 
+.product-hover{
+    position: absolute;
+    display: none;
+}
+
+.product.uno:hover .product-hover{
+    display: block;
+}
 
 /* regole footer */
 footer{
