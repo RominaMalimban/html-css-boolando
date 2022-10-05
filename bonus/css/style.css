@@ -130,6 +130,10 @@ main .product{
     font-size: 35px;
 }
 
+.heart:hover{
+    color: red;
+}
+
 .img-hover{
     position: absolute;
     top: 0;
