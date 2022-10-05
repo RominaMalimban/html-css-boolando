@@ -14,31 +14,50 @@ body{
     width: 80%;
     margin: 0 auto;
     /* debug */
-    background-color: darksalmon;
-    border: 1px solid black;
+    /* background-color: darksalmon;
+    border: 1px solid black; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
 }
 
 /* regole header */
 header{
-    background-color: orange;
-    height: 90px;
+    background-color: rgb(255, 89, 0);
+    height: 50px;
 }
 
 .header{
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* debug */
+    /* background-color: darkslateblue; */
 }
 
 .flex-header{
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* debug */
-    background-color: crimson;
+    /* background-color: burlywood; */
+}
+
+.flex-header .center-item{
+    padding: 0 15px;
 }
 
 header img{
-    width: 150px;
+    width: 100px;
 }
 
 
