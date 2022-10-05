@@ -41,6 +41,9 @@ ul{
 header{
     background-color: rgb(255, 89, 0);
     height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .flex-header{
@@ -60,12 +63,10 @@ header img{
     width: 100px;
 }
 
-
-
-
 /* regole main */
-
-
+main{
+    margin-top: 50px;
+}
 
 /* regole footer */
 footer{
