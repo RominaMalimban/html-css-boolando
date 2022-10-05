@@ -27,13 +27,7 @@ ul{
     list-style: none;
 }
 
-/* regole header */
-header{
-    background-color: rgb(255, 89, 0);
-    height: 50px;
-}
-
-.header{
+.header, .footer{
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -41,6 +35,12 @@ header{
     padding: 20px 0;
     /* debug */
     /* background-color: darkslateblue; */
+}
+
+/* regole header */
+header{
+    background-color: rgb(255, 89, 0);
+    height: 50px;
 }
 
 .flex-header{
@@ -68,3 +68,17 @@ header img{
 
 
 /* regole footer */
+footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+footer span{
+    font-size: 10px;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+}
