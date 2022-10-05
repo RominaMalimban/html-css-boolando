@@ -130,12 +130,14 @@ main .product{
     font-size: 35px;
 }
 
-.product-hover{
+.img-hover{
     position: absolute;
+    top: 0;
+    left: 0;
     display: none;
 }
 
-.product.uno:hover .product-hover{
+.details:hover .img-hover{
     display: block;
 }
 
