@@ -44,6 +44,7 @@ header{
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 .flex-header{
@@ -76,9 +77,7 @@ main{
 }
 
 main .product{
-    /* debug */
-    background-color: rgba(197, 149, 131, 0.477);
-    min-height: 450px;
+    margin-bottom: 30px;
 }
 
 .details img{
