@@ -24,6 +24,25 @@ header{
     height: 90px;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    background-color: crimson;
+}
+
+header img{
+    width: 150px;
+}
+
+
+
 
 /* regole main */
 
